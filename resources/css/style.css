@@ -10,13 +10,15 @@
   box-sizing: border-box;
 }
 
-html {
+html,
+body {
   background-color: #fff;
   color: #555;
   font-family: 'Lato', 'Arial', 'sans-serif';
   font-weight: 300;
   font-size: 20px;
   text-rendering: optimizeLegibility;
+  overflow-x: hidden;
   /* make our fonts rendering in a perfect way */
 }
 
@@ -90,9 +92,7 @@ h2:after {
 /* PARAGRAPHS */
 
 .long-copy {
-  /* use line spacing between 120%-150% */
   line-height: 145%;
-  /* 40-90 characters per line */
   width: 70%;
   margin-left: 15%;
   margin-right: 15%;
