@@ -5,7 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Omnifood</title>
+
+  <meta name="discription" content="Omnifood is a premium food delivery service with the misstion to bring affordable and healthy meals to as many as people as possible"> 
   <link rel="stylesheet" href="vendors/css/normalize.css">
   <link rel="stylesheet" href="vendors/css/grid.css">
   <link rel="stylesheet" href="vendors/css/ionicons.min.css">
@@ -13,6 +14,16 @@
   <link rel="stylesheet" href="resources/css/style.css">
   <link rel="stylesheet" href="resources/css/queries.css">
   <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet">
+  <title>Omnifood</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="./resources/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./resources/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./resources/favicons/favicon-16x16.png">
+  <link rel="manifest" href="./resources/favicons/site.webmanifest">
+  <link rel="mask-icon" href="./resources/favicons/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="./resources/favicons/favicon.ico">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-config" content="./resources/favicons/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
 </head>
 
 <body>
@@ -35,7 +46,9 @@
             <a href="#plans">Sign up</a>
           </li>
         </ul>
-        <a class="mobile-nav-icon js--nav-icon"><i class="ion-navicon-round"></i></a>
+        <a class="mobile-nav-icon js--nav-icon">
+          <i class="ion-navicon-round"></i>
+        </a>
       </div>
     </nav>
     <div class="hero-text-box">
@@ -253,7 +266,7 @@
           Now that I got used to it, I couldn't live without my daily meals!
         </blockquote>
         <cite>
-          <img src="resources/img/customer-1.jpg">Alberto Duncan</cite>
+          <img src="resources/img/customer-1.jpg" alt="customer 1">Alberto Duncan</cite>
       </div>
       <div class="col span-1-of-3">
         <blockquote>
@@ -261,7 +274,7 @@
           no one comes even close to Omifood. Me and my family are so in love!
         </blockquote>
         <cite>
-          <img src="resources/img/customer-2.jpg">Joana Silva</cite>
+          <img src="resources/img/customer-2.jpg" alt="customer 2">Joana Silva</cite>
       </div>
       <div class="col span-1-of-3">
         <blockquote>
@@ -269,7 +282,7 @@
           Best food delivery service in the Bay Area. Keep up the great work!
         </blockquote>
         <cite>
-          <img src="resources/img/customer-3.jpg">Milton Chapman</cite>
+          <img src="resources/img/customer-3.jpg" alt="customer 3">Milton Chapman</cite>
       </div>
     </div>
   </section>
@@ -398,7 +411,7 @@
         </div>
         <div class="row">
           <div class="col span-1-of-3">
-            <label for="">Newletter?</label>
+            <label for="news">Newletter?</label>
           </div>
           <div class="col span-2-of-3">
             <input type="checkbox" name="news" id="news" checked> Yes, please
@@ -409,12 +422,12 @@
             <label for="message">Drop us a line</label>
           </div>
           <div class="col span-2-of-3">
-            <textarea type="text" name="message" id="message" placeholder="Your message"></textarea>
+            <textarea name="message" id="message" placeholder="Your message"></textarea>
           </div>
         </div>
         <div class="row">
           <div class="col span-1-of-3">
-            <label for="">&nbsp;</label>
+            <label>&nbsp;</label>
           </div>
           <div class="col span-2-of-3">
             <input type="submit" value="Send it!">
